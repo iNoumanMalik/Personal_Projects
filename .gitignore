@@ -1,0 +1,15 @@
+# === C++ ===
+*.exe
+*.o
+
+# === Java ===
+*.class
+
+# === React / Node.js ===
+node_modules/
+build/
+.env
+
+
+*.log
+.DS_Store

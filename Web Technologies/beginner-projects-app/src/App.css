@@ -1,0 +1,144 @@
+/* App.css */
+#root {
+  width: 100vw;
+  margin: 0;
+  /* padding: 2rem; */
+  text-align: center;
+
+}
+
+
+.accordian{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qna{
+  background-color: coral;
+  width: 600px;
+  margin: 10px;
+}
+
+.question {
+  padding: 4px;
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+}
+
+.answer{
+  padding: 0 10px 10px 10px;
+  color: black;
+
+}
+
+.color{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap:10px;
+}
+
+.btn{
+  width: 300px;
+}
+
+.btn button{
+  margin: 6px 4px;
+  width: 100%;
+}
+/* 
+#generate-btn{
+  width: 100%;
+} */
+
+.prevbtn, .nextbtn{
+  width: 20px;
+  font-size: 350px;
+  color: white;
+}
+
+.prevbtn{
+  position: relative;
+  left: 30px;
+  bottom: 170px;
+  cursor: pointer;
+  height: 20px;
+}
+.nextbtn{
+  position: relative;
+  right: 30px;
+  bottom: 170px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.prevbtn:hover , .nextbtn:hover{
+color: orangered;
+}
+
+
+.circle{
+  position: relative;
+  bottom: 10px;
+  right: 225px;
+}
+
+
+.loadCardItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.loadMore{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+}
+.loadMore .card{
+  background-color:white;
+  box-shadow: 2px 2px 10px 0px black;
+  width: 200px;
+  max-height: 200px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.shoppingItems{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 0px;
+  /* margin-right: 8rem; */
+}
+
+.ItemsContainer{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.shoppingItems .card{
+  background-color: white;
+  box-shadow: 2px 2px 10px 0px black;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
